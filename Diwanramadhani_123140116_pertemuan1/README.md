@@ -6,7 +6,7 @@ Data tugasnya disimpen pakai **localStorage**, jadi nggak bakal hilang walau bro
 ---
 
 ## 📸 Screenshot Aplikasi  
-Berikut beberapa tampilan dari aplikasi **Manajemen Tugas Mahasiswa** (ganti placeholder di bawah ini sama screenshot aplikasimu ya 👇):  
+Berikut beberapa tampilan dari aplikasi **Manajemen Tugas Mahasiswa**:  
 
 1. **Tampilan Utama + Form Tambah Tugas**  
    ![Tampilan Utama](screenshot1.png)
@@ -19,9 +19,9 @@ Berikut beberapa tampilan dari aplikasi **Manajemen Tugas Mahasiswa** (ganti pla
 
 ---
 
-## 🚀 Cara Menjalankan Aplikasi  
+##  Cara Menjalankan Aplikasi  
 
-Aplikasinya ringan banget dan nggak butuh install apa-apa. Cukup ikutin langkah ini:  
+Aplikasi webnya ringan dan hanya dijalankan di lokal. Ikutin langkah ini:  
 
 1. Buat folder baru (misal: `manajemen-tugas`)  
 2. Di dalamnya, bikin tiga file:  
@@ -29,16 +29,16 @@ Aplikasinya ringan banget dan nggak butuh install apa-apa. Cukup ikutin langkah 
    - `style.css`  
    - `script.js`  
 3. Copy semua kode ke file yang sesuai  
-4. Klik dua kali `index.html` buat buka di browser  
-5. Udah deh! Aplikasi siap dipakai 😎  
+4. Klik go live pada file `index.html` untuk dibuka di browser  
+5. Aplikasi web sudah dapat dijalankan!
 
 ---
 
 ## ✨ Fitur yang Tersedia  
 
 - **Tambah Tugas Baru** → Isi nama tugas, mata kuliah, dan deadline  
-- **Lihat Daftar Tugas** → Semua tugas tampil rapi dalam list  
-- **Tandai Selesai/Belum** → Bisa centang buat tandai tugas yang udah kelar  
+- **Lihat Daftar Tugas** → Semua tugas tampil rapih dalam list  
+- **Tandai Selesai/Belum** → Bisa centang buat tandai tugas yang udah selesai 
 - **Edit Tugas** → Ubah data tugas lewat prompt sederhana  
 - **Hapus Tugas** → Hilangkan tugas yang udah nggak dibutuhin  
 - **Penyimpanan Lokal (localStorage)** → Data tetap tersimpan walau browser ditutup  
