@@ -9,13 +9,13 @@ Data tugasnya disimpen pakai **localStorage**, jadi nggak bakal hilang walau bro
 Berikut beberapa tampilan dari aplikasi **Manajemen Tugas Mahasiswa**:  
 
 1. **Tampilan Utama + Form Tambah Tugas**  
-   ![Tampilan Utama](screenshot1.png)
+   ![Tampilan Utama](./Assets/ss1.png)
 
 2. **Daftar Tugas Setelah Ditambah**  
-   ![Daftar Tugas](screenshot2.png)
+   ![Daftar Tugas](./Assets/ss2.png)
 
 3. **Fitur Filter Tugas (Contoh: Menampilkan yang Udah Selesai)**  
-   ![Filter Tugas](screenshot3.png)
+   ![Filter Tugas](./Assets/ss3.png)
 
 ---
 
