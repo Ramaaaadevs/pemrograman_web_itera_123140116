@@ -1,7 +1,7 @@
 # 📝 Aplikasi Manajemen Tugas Mahasiswa  
 
-Aplikasi web sederhana buat bantu mahasiswa ngatur daftar tugas kuliah mereka. Dibikin pakai **HTML, CSS, dan JavaScript murni**, aplikasi ini bisa buat kamu nambah, liat, edit, dan hapus tugas langsung dari browser.  
-Data tugasnya disimpen pakai **localStorage**, jadi nggak bakal hilang walau browser ditutup.  
+Aplikasi web sederhana untuk membantu mahasiswa mengatur daftar tugas kuliah mereka. Dikembangkan menggunakan **HTML, CSS, dan JavaScript dasar**, aplikasi ini bisa melakukan tambah, lihat, edit, dan hapus tugas langsung dari browser.  
+Data tugasnya tersimpan pakai **localStorage**, jadi jadwal tugas tidak akan hilang walau browser ditutup.  
 
 ---
 
