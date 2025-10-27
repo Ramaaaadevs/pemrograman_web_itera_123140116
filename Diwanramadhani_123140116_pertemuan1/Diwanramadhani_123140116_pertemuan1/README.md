@@ -1,7 +1,7 @@
 # 📝 Aplikasi Manajemen Tugas Mahasiswa  
 
-Aplikasi web sederhana buat bantu mahasiswa ngatur daftar tugas kuliah mereka. Dibikin pakai **HTML, CSS, dan JavaScript murni**, aplikasi ini bisa buat kamu nambah, liat, edit, dan hapus tugas langsung dari browser.  
-Data tugasnya disimpen pakai **localStorage**, jadi nggak bakal hilang walau browser ditutup.  
+Aplikasi web sederhana untuk membantu mahasiswa mengatur daftar tugas kuliah mereka. Dikembangkan menggunakan **HTML, CSS, dan JavaScript dasar**, aplikasi ini bisa melakukan tambah, lihat, edit, dan hapus tugas langsung dari browser.  
+Data tugasnya tersimpan pakai **localStorage**, jadi jadwal tugas tidak akan hilang walau browser ditutup.  
 
 ---
 
@@ -51,9 +51,29 @@ Aplikasi webnya ringan dan hanya dijalankan di lokal. Ikutin langkah ini:
 ## 🔧 Penjelasan Teknis  
 
 ### 1. localStorage  
-Aplikasi ini nyimpen semua data tugas di browser pakai **localStorage**.  
-Jadi setiap kali kamu nambah, edit, hapus, atau ubah status tugas, datanya langsung disimpan dalam bentuk **JSON string**.  
+Aplikasi ini menyimpan data tugas di browser pakai **localStorage**.  
+Jadi setiap kali menambah, edit, hapus, atau ubah status tugas, datanya langsung disimpan dalam bentuk **JSON string**.  
 
 ```js
 // Simpan data
 localStorage.setItem('tasks', JSON.stringify(tasks));
+```
+
+### 2. Validasi Form
+Sebelum tugas baru ditambah, aplikasi akan mengecek terlebih dahulu apakah semua kolom udah diisi.
+jika ada yang kosong, maka akan muncul alert agar form diisi dulu semuanya.
+
+```js
+  taskForm.addEventListener('submit', (e) => {
+  const name = taskNameInput.value.trim();
+  const course = taskCourseInput.value.trim();
+  const deadline = taskDeadlineInput.value;
+
+  if (name === '' || course === '' || deadline === '') {
+    alert('Harap isi semua kolom dulu ya!');
+    return;
+  }
+
+  // lanjut nambah tugas kalau valid
+});
+
