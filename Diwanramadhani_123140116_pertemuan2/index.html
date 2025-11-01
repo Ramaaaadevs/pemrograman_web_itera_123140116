@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="dashboard-container">
+        <h1>My Personal Dashboard</h1>
+
+        <section class="widget" id="info-widget">
+            <h2>Informasi Saat Ini</h2>
+            <p id="time-display">Memuat data waktu...</p>
+            <p id="ip-display">Memuat data IP...</p>
+        </section>
+
+        <section class="widget" id="notes-widget">
+            <h2>Catatan Cepat</h2>
+            <form id="note-form">
+                <input type="text" id="note-input" placeholder="Tulis catatan baru..." required>
+                <input type="hidden" id="note-edit-id">
+                <button type="submit" id="note-submit-btn">Tambah Catatan</button>
+            </form>
+            <ul id="note-list">
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>Dibuat oleh Diwan Ramadhani Dwi Putra.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
