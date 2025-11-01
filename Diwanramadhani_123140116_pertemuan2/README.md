@@ -15,7 +15,7 @@ Aplikasi ini adalah dashboard personal sederhana yang dibuat untuk memenuhi tuga
 ## 📸 Screenshot Aplikasi
 
 
-*(Silakan ganti baris ini dengan screenshot aplikasi Anda setelah jadi)*
+![Tampilan Utama](./Assets/ss1.png)
 
 ## 🛠️ Implementasi Fitur ES6+
 
