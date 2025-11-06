@@ -1,0 +1,157 @@
+/* Reset & Global */
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  background-color: #f4f7f6;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+#root {
+  max-width: 900px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+hr {
+  border: none;
+  border-top: 1px solid #eee;
+  margin: 25px 0;
+}
+
+h2, h3 {
+  color: #222;
+}
+
+/* Navigasi */
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 20px 0;
+  display: flex;
+  gap: 15px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #007bff;
+  font-weight: 500;
+  font-size: 1.1rem;
+}
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Tombol */
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 500;
+  transition: background-color 0.2s;
+}
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Tombol 'Batal' atau sekunder */
+button[type='button'] {
+  background-color: #6c757d;
+}
+button[type='button']:hover {
+  background-color: #5a6268;
+}
+
+/* Form (BookForm) */
+form {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+  border: 1px solid #e0e0e0;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+form div {
+  margin-bottom: 15px;
+}
+form label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: 500;
+}
+form button {
+  margin-right: 10px;
+}
+
+/* Input & Select */
+input[type='text'],
+select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+  box-sizing: border-box; /* Penting agar padding tidak merusak layout */
+}
+
+/* Filter Container (BookFilter) */
+.filter-container {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+.filter-container input {
+  flex: 2; /* Search bar lebih lebar */
+}
+.filter-container select {
+  flex: 1; /* Select lebih kecil */
+}
+
+/* Book Item Card (BookList) */
+.book-item {
+  border: 1px solid #e0e0e0;
+  background-color: #fff;
+  margin: 15px 0;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.03);
+}
+.book-item h4 {
+  margin-top: 0;
+  margin-bottom: 5px;
+  color: #0056b3;
+}
+.book-item p {
+  margin: 5px 0 15px 0;
+  color: #555;
+}
+.book-item button {
+  margin-right: 10px;
+  padding: 5px 10px;
+  font-size: 0.9rem;
+}
+
+/* Stats Page */
+.stats-page ul {
+    list-style: none;
+    padding-left: 0;
+}
+.stats-page li {
+    font-size: 1.1rem;
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+}
+.stats-page li:last-child {
+    border-bottom: none;
+}
+.stats-page li strong {
+    color: #333;
+}
